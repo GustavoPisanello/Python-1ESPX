@@ -1,0 +1,8 @@
+Pseudocódigo - Exercício 3
+
+1. Início
+2. Insira preço, desconto
+3. Leia preço, desconto
+4. total = preco - (preco * (desconto/100))
+5. Exibe total
+6. Fim

@@ -1,0 +1,17 @@
+Pseudocódigo Exercício 5
+
+1. Início
+2. Selecione a opção
+3. Se op == 1
+        Leia tensão e corrente
+        p = v * i
+        exibe p
+   Senão se op == 2
+        Leia corrente e resistência
+        p = r * i * i
+        exibe p
+    Senão
+        Leia tensão e resistência
+        p = v * v / r
+        exibe p
+4. Fim

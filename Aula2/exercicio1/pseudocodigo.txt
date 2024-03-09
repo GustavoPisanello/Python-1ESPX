@@ -1,0 +1,8 @@
+Pseudocódigo - Exercício 1
+
+1. Início
+2. Insira metros 
+3. Leia metros
+4. Milimetros = metros*1000
+5. Exibe Milimetros
+6. Fim

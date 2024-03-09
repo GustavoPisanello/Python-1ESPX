@@ -1,0 +1,11 @@
+Pseudocodigo - Exercício 2
+
+1. Início
+2. Insira Dias, Horas, Minutos, Segundos
+3. Leia Dias, Horas, Minutos, Segundos
+4. DES = Dias * 24 * 60 * 60
+5. HES = Horas * 60 * 60
+6. MES = Minutos * 60
+7. Resultado = DES + HES + MES
+8. Exibe Resultado
+9. Fim

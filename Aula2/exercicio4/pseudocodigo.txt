@@ -1,0 +1,8 @@
+Pseudocódigo - Exercício 4
+
+1. Início 
+2. Insira Velocidade, Distância
+3. Leia Velocidade, Distância
+4. Tempo = Velocidade * Distância
+5. Exibe Tempo
+6. Fim

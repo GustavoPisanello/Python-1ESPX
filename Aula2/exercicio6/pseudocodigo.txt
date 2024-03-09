@@ -1,0 +1,8 @@
+Pseudocódigo - Exercício 6
+
+1. Início
+2. Insira km, day
+3. Leia km, day
+4. ptp = 60 * days + km * 0.15
+5. exiba ptp
+6. Fim
