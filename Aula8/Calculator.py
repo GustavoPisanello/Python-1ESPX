@@ -1,7 +1,5 @@
 qty = int(input("Digite a quantidade de números que deseja fazer a operação: "))
 nums = []
-k = 0
-
 
 for i in range(qty):
     num = int(input(f"Digite o {i + 1}° valor: "))
@@ -9,14 +7,37 @@ for i in range(qty):
 
 op = input("Digite a operação que deseja realizar: ")
 print(nums)
-d = len(nums) - 1
 
 if op == "+":
+    k = 0
+    result = 0
     while k < len(nums):
-        d -= k
-        result = nums[k] + nums[d]
+        result += nums[k]
         k += 1
         print(result)
-    
+
+elif op == "-":
+    k = 1
+    result = nums[0]
+    while k < len(nums):
+        result -= nums[k]
+        k += 1
+        print(result)
+
+elif op == "*":
+    k = 1
+    result = nums[0]
+    while k < len(nums):
+        result *= nums[k]
+        k += 1
+        print(result)
+
+elif op == "/":
+    k = 1
+    result = nums[0]
+    while k < len(nums):
+        result /= nums[k]
+        k += 1
+        print(result)
         
 
