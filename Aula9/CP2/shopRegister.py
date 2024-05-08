@@ -1,7 +1,7 @@
 produtos = []
 i = 0
 lista_produtos = ["notebook", "ssd", "mouse", "teclado", "monitor"]
-contagem = []
+contagem = 0
 
 while i < 5:
     produto = input(f"Digite o {i + 1}° produto adquirido: ")
@@ -9,14 +9,8 @@ while i < 5:
     i += 1
 
 for i in lista_produtos:
+    contagem = 0
     for z in produtos:
         if z == i:
-            contagem.append(i)
-    
-    if z in i:
-        a = 0  
-        while a < len(contagem):
-            a += 1
-        print(f"Contagem de {i}: {a}")
-
-print(contagem)
+            contagem += 1
+    print(f"Contagem de {i}: {contagem}")
