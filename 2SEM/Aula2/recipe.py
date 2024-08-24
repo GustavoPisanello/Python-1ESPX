@@ -11,6 +11,7 @@ def Muquiranas():
     despesas_totais_list = []
     despesa_dono = []
     z = 0
+    
     for i in pessoas:
         despesas_totais = despesas_viagem[z] + despesas_rest[z] + despesas_transp[z];   
         despesas_totais_list.append(despesas_totais)
