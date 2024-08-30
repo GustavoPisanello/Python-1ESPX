@@ -26,7 +26,7 @@ def Calculum(x):
         print(f"A temperatura mediana é: {(temperatures[round(len(temperatures) / 2)] + temperatures[(round(len(temperatures) / 2)) - 1]) / 2}")
 
     print(f"A temperatura média é: {sum(x) / i}")
-    print(f"A temperatura mínima é: {x[0]}")
+    print(f"A temperatura mínima é: {x[1]}")
     print(f"A temperatura máxima é: {x[i - 1]}")
 
 weatherForecast()

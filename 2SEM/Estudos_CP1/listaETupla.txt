@@ -1,0 +1,5 @@
+Python - Listas e Tuplas
+
+Listas: São usadas para guardar dados de mesmo tipo e significado, de modo que a ordem pode fazer diferença. É mutável
+
+Tuplas: São imutáveis e armazenam dados heterogêneos. A posição do dado pode mudar seu significado. Tuplas são compiladas mais rapidamente.

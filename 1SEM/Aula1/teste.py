@@ -23,7 +23,7 @@ def InputGrades(qty):
         i += 1
         if grade > 10:
             print("Não são permitidos números maiores que 10!")
-            return False
+            exit()
         else:
             avrg.append(grade)
     Average(qty)
@@ -54,4 +54,5 @@ def Situation(result):
     else: 
         print(f"Sua nota é {result}. Você foi reprovado :(")
 
-NumberOfGrades()
+if __name__ == "__main__":
+    NumberOfGrades()

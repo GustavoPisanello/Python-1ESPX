@@ -10,7 +10,7 @@ while i < len:
 
     firstLetter = (separe[i][0])
     maiusculo = firstLetter.upper()
-    upperName = f"{maiusculo}{separe[i][1:]}"
+    upperName = f"{maiusculo}{separe[i][1:].lower()}"
     upperFullName.append(upperName)
     i += 1
 
