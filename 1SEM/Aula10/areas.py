@@ -2,7 +2,7 @@ import math
 
 def SquareArea(x):
     """Calculates the square's area
-    
+   
     Parameters:
     - The square side
     """
